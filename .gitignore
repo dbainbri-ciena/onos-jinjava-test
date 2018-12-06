@@ -1,0 +1,10 @@
+target
+.classpath
+.project
+.settings
+*.log
+.DS_Store
+.vagrant
+.swp
+.*.swp
+.idea
