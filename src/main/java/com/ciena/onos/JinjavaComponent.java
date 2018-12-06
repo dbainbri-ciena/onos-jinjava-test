@@ -33,7 +33,7 @@ public class JinjavaComponent {
 
     protected void activate() {
         try {
-            JinjavaComponent.class.getClassLoader().loadClass("com.hubstop.jinjava.Jinjava");
+            JinjavaComponent.class.getClassLoader().loadClass("com.hubspot.jinjava.Jinjava");
         } catch (Throwable t) {
             log.error("ERROR {}", t.toString(), t);
         }
